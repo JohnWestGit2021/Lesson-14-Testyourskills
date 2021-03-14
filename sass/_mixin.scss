@@ -1,0 +1,27 @@
+@import "color";
+
+@mixin btn {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $header-white;
+  line-height: 2.6rem;
+  text-align: center;
+  letter-spacing: 0.12rem;
+  padding: 1em 1.2em;
+  background-color: $button-blue;
+  border: none;
+  width: 20rem;
+}
+
+@mixin icon-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+}

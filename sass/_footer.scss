@@ -1,0 +1,46 @@
+@import "color";
+@import "mixin";
+
+.footer {
+  width: 100%;
+  height: 25rem;
+  background-color: $footer-bg;
+  &-area {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-inner {
+    display: flex;
+  }
+  &-main {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    :hover {
+      @include hover;
+    }
+  }
+  &-area h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: $header-white;
+    letter-spacing: 0.33rem;
+    text-transform: uppercase;
+  }
+  &-area p {
+    font-family: "Josefin Sans", sans-serif;
+    color: $header-white;
+    font-weight: 400;
+    letter-spacing: 0.16rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+}

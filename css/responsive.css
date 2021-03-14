@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1200px) {
+	.banner_bg{
+		height: 60rem;
+	}
+	.about-us-img{
+		height: 100%;
+	}
+	.search-field{
+		width: 100%;
+	}
+	.about-us-text{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.testimonial{
+		padding:100px 0px;
+		height: 100%;
+	}
+	.testimonial-header{
+		margin-bottom: 25px;
+	}
+	.testimonial-text{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar{
+		padding: 30px 0px;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.testimonial-text{
+		width: 100%;
+	}
+	.search-field{
+		justify-content: center;
+		margin-left: 0px;
+	}
+	.book h4{
+		font-size: 2.5rem;
+	}
+	.spot-box, .banner-box{
+		width: 100%;
+	}
+	.spot-box{
+		margin:0px 30px;
+		width: auto;
+	}
+	.spot_two, .spot{
+		height: auto;
+		padding: 80px 0px;
+	}
+	.spot_two-box{
+		width: auto;
+		margin: 0px 30px;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.about-us-right{
+		display: block;
+	}
+	.about-us-imgOne{
+		margin-bottom: 20px;
+	}
+	.book{
+		height: 100%;
+		display: block;
+	}
+	.box-book{
+		margin-bottom: 30px;
+	}
+}

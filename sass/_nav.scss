@@ -1,0 +1,51 @@
+@import "color";
+
+.navbar {
+  height: 10rem;
+  background-color: $button-blue;
+  width: 100%;
+  &-brand h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: $header-white;
+    letter-spacing: 0.24rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &-toggler-icon {
+    color: $header-white;
+  }
+
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+.fa-bars {
+  font-size: 3rem;
+}
+
+.nav-link {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: $header-white;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul.navbar-nav.ml-auto{
+  margin-left: auto;
+  .nav-item{
+    .nav-link{
+      padding: 8px 12px;
+      font-size: 16px;
+      &:hover{
+        color:$thumbs-up;
+      }
+    }
+  }
+}
